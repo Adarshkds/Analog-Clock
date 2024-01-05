@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:#bbe1fa;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.936);
+    position: relative;
+    z-index: 1;
+}
+
+.date{
+    position: absolute;
+    background-color: #bbe1fa31;
+    height: 1.2rem;
+    width: 4rem;
+    z-index: 2;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hr{
+    width: 0.2rem;
+    height: 5.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(30deg);
+    display: flex;
+    background-color: greenyellow;
+    transform-origin: top;
+}
+
+.mn{
+    background-color: orange;
+    width: 0.2rem;
+    height: 7.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(210deg);
+    transform-origin: top;
+}
+
+.sc{
+    background-color: violet;
+    width: 0.05rem;
+    height: 8.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg);
+    transform-origin: top;
+}
+
+.numbers{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.number{
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    /* background-color: rgba(240, 255, 255, 0.473); */
+    border-radius: 50%;
+}
+
+#num12{top: 3%; left: 50%; transform: translate(-50%);}
+#num6{bottom: 3%; left: 50%; transform: translate(-50%);}
+
+#num1{top: 10%; right: 25%;}
+#num11{top: 10%; left: 25%;}
+#num7{bottom: 10%; left: 25%;}
+#num5{bottom: 10%; right: 25%;}
+
+#num2{top: 25%; right: 12%;}
+#num10{top: 25%; left: 12%;}
+#num8{bottom: 25%; left: 12%;}
+#num4{bottom: 25%; right: 12%;}
+
+#num3{top: 50%; right: 3%; transform: translate(-50%,-50%);}
+#num9{top: 50%; left: 3%; transform: translate(50%, -50%);}
+
+
+
+
+
+
+
